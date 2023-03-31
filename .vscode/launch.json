@@ -1,29 +1,57 @@
 {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Calculation",
-            "request": "launch",
-            "mainClass": "Calculation",
-            "projectName": "my-app"
-        },
-        {
-            "type": "java",
-            "name": "Launch VariablesLesson2",
-            "request": "launch",
-            "mainClass": "VariablesLesson2",
-            "projectName": "my-app"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "stopOnEntry": false,
-            "mainClass": "com.mycompany.app.App",
-            "args": "",
-            "projectName": "my-app"
-        }
-    ]
+  "configurations": [
+    {
+      "type": "java",
+      "name": "doWhileLoop",
+      "request": "launch",
+      "mainClass": "doWhileLoop",
+      "projectName": "vscode-remote-try-java_bca6f35a"
+    },
+    {
+      "type": "java",
+      "name": "whileLoops2",
+      "request": "launch",
+      "mainClass": "whileLoops2",
+      "projectName": "vscode-remote-try-java_bca6f35a"
+    },
+    {
+      "type": "java",
+      "name": "whileLoops",
+      "request": "launch",
+      "mainClass": "whileLoops",
+      "projectName": "vscode-remote-try-java_bca6f35a"
+    },
+    {
+      "type": "java",
+      "name": "SentinialWhileLoop",
+      "request": "launch",
+      "mainClass": "SentinialWhileLoop",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Launch Calculation",
+      "request": "launch",
+      "mainClass": "Calculation",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Launch VariablesLesson2",
+      "request": "launch",
+      "mainClass": "VariablesLesson2",
+      "projectName": "my-app"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "com.mycompany.app.App",
+      "args": "",
+      "projectName": "my-app"
+    }
+  ]
 }
