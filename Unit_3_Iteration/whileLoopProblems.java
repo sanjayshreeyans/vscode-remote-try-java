@@ -17,32 +17,6 @@ public class whileLoopProblems {
         // Scanner instance
         Scanner scanner = new Scanner(System.in);
 
-        // Use while to calculate the avg
-
-        int mark = 0;
-        int count=0;
-        int sum=0;
-        char option = 'y';
-        // If the mark != -1
-
-        while((option == 'y') || (option == 'Y')){
-
-            // Prompt for the mark
-            System.out.print("Mark: ");
-
-            // Store the mark
-            mark = scanner.nextInt();
-
-                sum+=mark;
-                count++;
-                System.out.print("Continue enter y or yes and n for no:");
-                option = scanner.next().charAt(0);
-
-
-        }
-
-        // Your avg is the sum /count
-
-        System.out.println("Your avg is " + (sum/count));
+     
    }
 }
